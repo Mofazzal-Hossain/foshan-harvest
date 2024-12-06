@@ -38,16 +38,16 @@
         <!-- header inner -->
         <div class="headerInner center">
             <div class="left">
-                <a href="/index.php" class="logo">
+                <a href="/" class="logo">
                     <img src="./assets/images/site-logo.png" alt="foshan harvest">
                 </a>
                 <a href="https://fsharvest.en.alibaba.com/" class="al" target="_blank">Alibaba International</a>
             </div>
             <div class="right">
                 <ul class="header-menu-items">
-                    <li class="menu-item active"><a href="/index.php">Home</a></li>
+                    <li class="menu-item active"><a href="/">Home</a></li>
                     <li class="menu-item">
-                        <a href="lists/9.html">About us</a>
+                        <a href="about-us.php">About us</a>
                         <ul class="sub-menu">
                             <li><a href="lists/9.html#i1">Company Introduction</a></li>
                             <li><a href="lists/10.html#i2">Corporate Culture</a></li>

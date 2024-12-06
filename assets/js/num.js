@@ -1,6 +1,7 @@
 // num
-
-var wrapTop01 = $(".numContent").offset().top;
+if($(".numContent").length > 0){
+	var wrapTop01 = $(".numContent").offset().top;
+}
 var istrue = true;
 $(window).on("scroll",
 	function () {

@@ -70,22 +70,23 @@ jQuery(document).ready(function($) {
 
 
     // header add class
-    var width = document.documentElement.clientWidth
-    if (width > 960) {
-      $('.mh-header-wrapper').addClass('active')
-    }
-
-
-    // header scroll
-    window.onscroll = function () {
-        var t = document.documentElement.scrollTop || document.body.scrollTop;
-        var sheight = $('.banner-swiper').height();
+    $bannerSwiper = $('.banner-swiper');
+    if($bannerSwiper.length > 0) {
+        var width = document.documentElement.clientWidth
         if (width > 960) {
-          if (t >= sheight - 700) {
-            $('.mh-header-wrapper').removeClass('active')
-          } else {
-            $('.mh-header-wrapper').addClass('active')
-          }
+          $('.mh-header-wrapper').addClass('active')
+        }
+        // header scroll
+        window.onscroll = function () {
+            var t = document.documentElement.scrollTop || document.body.scrollTop;
+            var sheight = $bannerSwiper.height();
+            if (width > 960) {
+              if (t >= sheight - 700) {
+                $('.mh-header-wrapper').removeClass('active')
+              } else {
+                $('.mh-header-wrapper').addClass('active')
+              }
+            }
         }
     }
 
@@ -146,12 +147,45 @@ jQuery(document).ready(function($) {
         disable: window.innerWidth < 960
     });
 
+    // on hover effect 
     $('.news-content .item-box .item').hover(function () {
         $(this).addClass('active').siblings().removeClass('active')
-    })
-  
+    });
+   // on hover effect 
     $('.news-content .item-box .item').hover(function () {
         $(this).addClass('active').siblings().removeClass('active')
-    })
+    });
+
+    // smooth scroll when click on link
+    $('a[href*="#"]').click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top - 80 }, 600);
+    });
+
+    // a swiper
+    var aSwiper = new Swiper('.aSwiper', {
+        spaceBetween: 21,
+        slidesPerView: 4,
+        loop: true,
+        speed: 4000,
+        autoplay: {
+          disableOnInteraction: false,
+          delay: 3000
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          1000: {  
+            spaceBetween: 21,
+            slidesPerView: 4,
+          },
+          960: { 
+            spaceBetween: 10,
+            slidesPerView: 2,
+          },
+        },
+    });
 
 });

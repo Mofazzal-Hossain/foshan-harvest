@@ -3,7 +3,7 @@
         <div class="footer-inner center">
             <div class="top">
                 <div class="left">
-                    <a href="index.php" class="fl">
+                    <a href="/" class="fl">
                         <img src="./assets/images/site-white-logo.png" alt="foshan harvest">
                     </a>
                     <a href="https://fsharvest.en.alibaba.com/" class="al" target="_blank">Alibaba International</a>
