@@ -1133,7 +1133,6 @@ body {
   height: 440px;
   border-radius: 10px;
   overflow: hidden;
-  /*margin-top: 10px;*/
 }
 .corporate-culture-content .right img {
   width: 100%;
@@ -1144,22 +1143,23 @@ body {
 .corporate-culture-content .right:hover > img {
   transform: scale(1.05);
 }
-.a3-box {
+/* Service Idea Section */
+.service-idea-wrapper {
   width: 100%;
   background-color: #f8f8f8;
 }
-.a3Inner {
+.service-idea-content {
   margin: 0 auto;
   padding: 90px 0 95px 0;
 }
-.a3Inner h3 {
+.service-idea-content h3 {
   font-family: mont;
   font-weight: bold;
   font-size: 40px;
   color: #333333;
   line-height: 1;
 }
-.a3Inner .js {
+.service-idea-content .js {
   font-family: mont;
   font-weight: 400;
   font-size: 16px;
@@ -1167,7 +1167,7 @@ body {
   line-height: 30px;
   margin: 50px 0;
 }
-.a3Inner .row-box {
+.service-idea-content .row-box {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
@@ -1175,7 +1175,7 @@ body {
   width: 100%;
   height: 263px;
 }
-.a3Inner .row-box .row {
+.service-idea-content .row-box .row {
   display: flex;
   display: -webkit-flex;
   width: calc((100% - 23px) / 2);
@@ -1183,12 +1183,12 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-.a3Inner .row-box .row img {
+.service-idea-content .row-box .row img {
   width: 408px;
   height: 100%;
   object-fit: cover;
 }
-.a3Inner .row-box .row .left {
+.service-idea-content .row-box .row .left {
   width: calc(100% - 408px - 49px);
   padding-left: 49px;
   background-color: #0c508d;
@@ -1199,91 +1199,96 @@ body {
   justify-content: center;
   -webkit-justify-content: center;
 }
-.a3Inner .row-box .row .left .tm {
+.service-idea-content .row-box .row .left .tm {
   font-family: mont;
   font-weight: bold;
   font-size: 24px;
   color: #ffffff;
 }
-.a3Inner .row-box .row .left .wz {
+.service-idea-content .row-box .row .left .wz {
   font-family: mont;
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
   margin-top: 20px;
 }
-.a3Inner .container {
+.service-idea-content .container {
   margin-top: 23px;
   border-radius: 10px;
   overflow: hidden;
   height: 560px;
   position: relative;
 }
-.a3Inner .container .bg {
+.service-idea-content .container .bg {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.a3Inner .container .content {
+.service-idea-content .container .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: calc(100% - 160px);
 }
-.a3Inner .container .content h3 {
+.service-idea-content .container .content h3 {
   font-family: mont;
   font-weight: bold;
   font-size: 24px;
   color: #0c508d;
   text-align: center;
 }
-.a3Inner .container .content .ct {
+.service-idea-content .container .content .ct {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
   -webkit-justify-content: space-between;
   margin-top: 55px;
 }
-.a3Inner .container .content .ct .item {
+.service-idea-content .container .content .ct .item {
   max-width: 390px;
 }
-.a3Inner .container .content .ct .item .tm {
+.service-idea-content .container .content .ct .item .tm {
   font-family: mont;
   font-weight: bold;
   font-size: 18px;
   color: #ffffff;
 }
-.a3Inner .container .content .ct .item .txt {
+.service-idea-content .container .content .ct .item .txt {
   margin-top: 24px;
 }
-.a3Inner .container .content .ct .item .txt p {
+.service-idea-content .container .content .ct .item .txt p {
   font-family: mont;
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
   line-height: 30px;
 }
-.a4-box {
+
+/* Qualifications Section */
+.qualifications-wrapper {
   width: 100%;
-  background: url("../images/a4-bg.png") no-repeat center / cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.a4Inner {
+.qualifications-content {
   margin: 0 auto;
   padding: 70px 0 110px 0;
+  overflow: hidden;
 }
-.a4Inner .aSwiper {
+.qualifications-content .aSwiper {
   width: 100%;
   padding-bottom: 105px;
   margin-top: 65px;
 }
-.a4Inner .aSwiper .box {
+.qualifications-content .aSwiper .box {
   width: calc(100% - 70px);
   height: 460px;
   padding: 30px 35px 0 35px;
   background-color: #ffffff;
 }
-.a4Inner .aSwiper .box .img-box {
+.qualifications-content .aSwiper .box .img-box {
   width: 100%;
   height: 305px;
   display: flex;
@@ -1293,31 +1298,31 @@ body {
   -webkit-justify-content: center;
   -webkit-align-items: center;
 }
-.a4Inner .aSwiper .box img {
+.qualifications-content .aSwiper .box img {
   max-height: 100%;
   max-width: 100%;
 }
-.a4Inner .aSwiper .box .line {
+.qualifications-content .aSwiper .box .line {
   width: 100%;
   height: 1px;
   background-color: #dedede;
   margin: 40px 0 23px 0;
 }
-.a4Inner .aSwiper .box p {
+.qualifications-content .aSwiper .box p {
   font-family: mont;
   font-weight: 400;
   font-size: 20px;
   color: #333333;
   text-align: center;
 }
-.a4Inner .aSwiper .swiper-pagination-bullet {
+.qualifications-content .aSwiper .swiper-pagination-bullet {
   width: 50px;
   height: 2px;
   background: #c8c8c8;
   border-radius: unset;
   opacity: 1;
 }
-.a4Inner .aSwiper .swiper-pagination-bullet-active {
+.qualifications-content .aSwiper .swiper-pagination-bullet-active {
   width: 106px;
   background-color: #0c508d;
 }

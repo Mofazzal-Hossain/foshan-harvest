@@ -163,7 +163,7 @@ jQuery(document).ready(function($) {
     });
 
     // a swiper
-    var aSwiper = new Swiper('.aSwiper', {
+    var aSwiper = new Swiper('.qualifications-wrapper .aSwiper', {
         spaceBetween: 21,
         slidesPerView: 4,
         loop: true,
@@ -173,7 +173,7 @@ jQuery(document).ready(function($) {
           delay: 3000
         },
         pagination: {
-          el: '.swiper-pagination',
+          el: '.qualifications-wrapper .swiper-pagination',
           clickable: true
         },
         breakpoints: {

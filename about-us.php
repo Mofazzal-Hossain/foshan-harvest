@@ -18,10 +18,10 @@
             <a href="9.html">About us</a>
         </div>
         <div class="right">
-            <a class="active" href="#i1">Company Introduction</a>
-            <a class="" href="#i2">Corporate Culture</a>
-            <a class="" href="#i3">Service Idea </a>
-            <a class="" href="#i4">Honorary Qualifications</a>
+            <a class="active" href="#aboutIntro">Company Introduction</a>
+            <a class="" href="#corporateCulture">Corporate Culture</a>
+            <a class="" href="#serviceIdea">Service Idea </a>
+            <a class="" href="#qualifications">Honorary Qualifications</a>
 
         </div>
     </div>
@@ -29,9 +29,9 @@
 <!-- Breadcrumb Section End -->
 
 <!-- About Intro Section Start -->
-<div class="about-intro-wrapper a1-box" style="background: url(assets/images/company-intro-bg.png);">
+<div class="about-intro-wrapper" style="background: url(assets/images/company-intro-bg.png);">
     <!-- company intro content -->
-    <div class="about-intro-content a1Inner center" id="i1">
+    <div class="about-intro-content center" id="aboutIntro">
         <!-- left -->
         <div class="left">
             <img src="assets/images/about-intro.png" alt="">
@@ -73,16 +73,16 @@
                     <p class="text">Professional Service Technician</p>
                 </div>
             </div>
-            <script src="../static/addons/cms/js/num.js"></script>
+
         </div>
     </div>
 </div>
 <!-- About Intro Section End -->
 
 <!-- Corporate Culture Section Start -->
-<div class="corporate-culture-wrapper a2-box" style="background: url(assets/images/corporate-culture-bg.png);">
+<div class="corporate-culture-wrapper" style="background: url(assets/images/corporate-culture-bg.png);">
     <!-- corporate culture content -->
-    <div class="corporate-culture-content a2Inner center" id="i2">
+    <div class="corporate-culture-content center" id="corporateCulture">
         <!-- left -->
         <div class="left">
             <div class="tm">Corporate<br>Culture</div>
@@ -133,9 +133,9 @@
 <!-- Corporate Culture Section End -->
 
 <!-- Service Idea Section Start -->
-<div class="service-idea-wrapper a3-box">
+<div class="service-idea-wrapper">
     <!-- service idea content -->
-    <div class="service-idea-content a3Inner center" id="i3">
+    <div class="service-idea-content center" id="serviceIdea">
         <h3 aos="fade-up">Service Idea </h3>
         <div class="js" data-aos="fade-up">
             Service is not only a responsibility, but also an emotional communication. Our "Golden Thumb wholeheartedly
@@ -163,11 +163,14 @@
                 <img src="assets/images/idea-item-img-2.jpg" alt="">
             </div>
         </div>
+        <!-- container -->
         <div class="container">
-            <img src="assets/images/mejor-communities.png" alt="" class="bg">
+            <img src="assets/images/mejor-communities.png" alt="mejor communities" class="bg">
+            <!-- content -->
             <div class="content">
                 <h3>Three Major Commitments</h3>
                 <div class="ct">
+                    <!-- item -->
                     <div class="item">
                         <div class="tm">Guarantee Commitment</div>
                         <div class="txt">
@@ -179,6 +182,7 @@
                             <p>4．Provide professional packaging and genuine manufacturer spare parts</p>
                         </div>
                     </div>
+                    <!-- item -->
                     <div class="item">
                         <div class="tm">Warranty Commitment</div>
                         <div class="txt">
@@ -189,6 +193,7 @@
                             </p>
                         </div>
                     </div>
+                    <!-- item -->
                     <div class="item">
                         <div class="tm">Service Commitment</div>
                         <div class="txt">
@@ -203,79 +208,102 @@
         </div>
     </div>
 </div>
-<div class="a4-box">
-    <div class="a4Inner center" id="i4">
+<!-- Service Idea Section End -->
+
+<!-- Qualifications Section End -->
+<div class="qualifications-wrapper" style="background-image: url(assets/images/qualifications-bg.png);">
+    <div class="qualifications-content center" id="qualifications">
+        <!-- title -->
         <div class="title" data-aos="fade-up">
             <h3>Honorary Qualifications</h3>
             <h6>Integrity, Innovation, Belief, Cooperation</h6>
         </div>
+        <!-- swiper container -->
         <div class="swiper-container aSwiper" data-aos="fade-up">
+            <!-- swiper wrapper -->
             <div class="swiper-wrapper">
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/870f0bcc55dc3bd620121209058fdc6b.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-1.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>High tech Enterprise Certificate -2024</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/19b7c67376849add4562ebce77515a65.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-2.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>CE Certification</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/e327ecbb55314f4a38c93fd3c010a529.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-3.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>ISO14001-2023</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/dffc2177c225947c53bdc96a17ee28d0.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-4.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>ISO-9001-2023</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/fb29f94446a3dee68281297a988b1e9e.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-5.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>CE-SCT230701330236_00</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/e4eed3868c52387ef64d5c752b01abf8.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-6.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>CE-SCT230701330235_00</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/22b4813c3678749d5d5c43628e01575e.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-7.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>CE-SCT230701330197_00</p>
                     </div>
                 </div>
+                <!-- swiper slide -->
                 <div class="swiper-slide">
                     <div class="box">
-                        <div class="img-box"><img src="../uploads/images/20240516/0d87e0624647de45ddf64dd1c4e22f64.jpg" alt="">
+                        <div class="img-box">
+                            <img src="assets/images/qualification-img-8.jpg" alt="Qualifications Image">
                         </div>
                         <div class="line"></div>
                         <p>CE-SCT230701330196_00</p>
                     </div>
                 </div>
             </div>
+            <!-- swiper pagination -->
             <div class="swiper-pagination"></div>
         </div>
     </div>

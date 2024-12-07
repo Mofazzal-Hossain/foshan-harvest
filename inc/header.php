@@ -49,10 +49,10 @@
                     <li class="menu-item">
                         <a href="about-us.php">About us</a>
                         <ul class="sub-menu">
-                            <li><a href="lists/9.html#i1">Company Introduction</a></li>
-                            <li><a href="lists/10.html#i2">Corporate Culture</a></li>
-                            <li><a href="lists/11.html#i3">Service Idea </a></li>
-                            <li><a href="lists/12.html#i4">Honorary Qualifications</a></li>
+                            <li><a href="about-us.php#aboutIntro">Company Introduction</a></li>
+                            <li><a href="about-us.php#corporateCulture">Corporate Culture</a></li>
+                            <li><a href="about-us.php#serviceIdea">Service Idea </a></li>
+                            <li><a href="about-us.php#qualifications">Honorary Qualifications</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">

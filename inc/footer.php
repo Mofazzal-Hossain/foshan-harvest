@@ -20,7 +20,7 @@
             </div>
             <div class="middle">
                 <div class="footer-nav">
-                    <a href="lists/9.html">About us</a>
+                    <a href="about-us.php">About us</a>
                     <a href="lists/5.html">Products</a>
                     <a href="lists/13.html">News</a>
                     <a href="lists/4.html">Contact us</a>
