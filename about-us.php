@@ -10,19 +10,18 @@
 
 <!-- Breadcrumb Section Start -->
 <div class="breadcrumb-wrapper pb-table">
-    <div class="breadcrumb-inner ct center" aos="fade-up">
+    <div class="breadcrumb-inner ct center" data-aos="fade-up">
         <div class="nav">
             <p>Location：</p>
-            <a href="../index.html">Home</a>
+            <a href="index.php">Home</a>
             <span>I</span>
-            <a href="9.html">About us</a>
+            <a href="about-us.php">About us</a>
         </div>
         <div class="right">
             <a class="active" href="#aboutIntro">Company Introduction</a>
-            <a class="" href="#corporateCulture">Corporate Culture</a>
-            <a class="" href="#serviceIdea">Service Idea </a>
-            <a class="" href="#qualifications">Honorary Qualifications</a>
-
+            <a href="#corporateCulture">Corporate Culture</a>
+            <a href="#serviceIdea">Service Idea </a>
+            <a href="#qualifications">Honorary Qualifications</a>
         </div>
     </div>
 </div>

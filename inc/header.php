@@ -26,6 +26,7 @@
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/element.css" />
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/icofont.min.css" />
     <link rel="stylesheet" href="./assets/css/aos.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
@@ -74,7 +75,7 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="lists/4.html">Contact us</a>
+                        <a href="contact-us.php">Contact us</a>
                     </li>
                 </ul>
 
@@ -154,7 +155,7 @@
                 </ul>
             </li>
             <li class="sidebar-brand">
-                <a href="lists/4.html">Contact us</a>
+                <a href="contact-us.php">Contact us</a>
             </li>
 
         </ul>

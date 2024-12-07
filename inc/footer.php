@@ -23,7 +23,7 @@
                     <a href="about-us.php">About us</a>
                     <a href="lists/5.html">Products</a>
                     <a href="lists/13.html">News</a>
-                    <a href="lists/4.html">Contact us</a>
+                    <a href="contact-us.php">Contact us</a>
 
                 </div>
                 <div class="contact-info">
