@@ -57,7 +57,7 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="lists/5.html">Products</a>
+                        <a href="products.php">Products</a>
                         <!-- sub menu -->
                         <ul class="sub-menu">
                             <li><a href="lists/5.html">Dishwashers</a></li>
@@ -67,7 +67,7 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="lists/13.html">News</a>
+                        <a href="news.php">News</a>
                         <!-- sub menu -->
                         <ul class="sub-menu">
                             <li><a href="lists/13.html">Industry News</a></li>

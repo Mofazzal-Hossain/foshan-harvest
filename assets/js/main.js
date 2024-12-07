@@ -188,4 +188,41 @@ jQuery(document).ready(function($) {
         },
     });
 
+    AMapLoader.load({
+      key: "8d28a4794709a8da2e032edcef64a426",
+      version: "1.4.15",
+    }).then((AMap) => {
+
+      const map = new AMap.Map('map', {
+        viewMode: '2D',
+        zoom: 14,
+        center: [113.17, 22.91],
+        lang: "en",
+        zoomEnable: false,
+        dragEnable: true,
+      });
+
+      const icon = new AMap.Icon({
+        size: new AMap.Size(40, 50),
+        image: 'assets/images/map.png',
+
+        imageSize: new AMap.Size(20, 27)
+      });
+      const marker = new AMap.Marker({
+        position: new AMap.LngLat(113.17, 22.91),
+        icon: icon,
+      });
+
+      var info = [];
+      info.push(`<h4 class='c-map-h4'>Foshan Harvest Electric Appliance Co.,Ltd</h4>`);
+      info.push(`<p class='c-map-p'>address：No. 3 Longyong Industrial Avenue, Beijiao Town, Shunde District, Foshan City</p></div></div>`);
+      infoWindow = new AMap.InfoWindow({
+        content: info.join(""),
+        anchor: 'bottom-center',
+        offset: new AMap.Pixel(0, -40)
+      });
+      infoWindow.open(map, map.getCenter());
+      map.add(marker);
+    })
+
 });

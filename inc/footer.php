@@ -21,8 +21,8 @@
             <div class="middle">
                 <div class="footer-nav">
                     <a href="about-us.php">About us</a>
-                    <a href="lists/5.html">Products</a>
-                    <a href="lists/13.html">News</a>
+                    <a href="products.php">Products</a>
+                    <a href="news.php">News</a>
                     <a href="contact-us.php">Contact us</a>
 
                 </div>
@@ -45,6 +45,7 @@
 <script src="assets/js/swiper-bundle.min.js"></script>
 <script src="assets/js/aos.js"></script>
 <script src="assets/js/num.js"></script>
+<script src="assets/js/loader.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

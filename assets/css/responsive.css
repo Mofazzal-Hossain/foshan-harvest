@@ -571,6 +571,9 @@
   .breadcrumb-wrapper .breadcrumb-inner .nav {
     display: none;
   }
+  .breadcrumb-wrapper .breadcrumb-inner.no-right-menus .nav{
+    display: flex;
+  }
   .breadcrumb-wrapper .breadcrumb-inner .right a {
     font-size: 12px;
   }
