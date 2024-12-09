@@ -60,18 +60,18 @@
                         <a href="products.php">Products</a>
                         <!-- sub menu -->
                         <ul class="sub-menu">
-                            <li><a href="lists/5.html">Dishwashers</a></li>
-                            <li><a href="lists/6.html">Fan Motor</a></li>
-                            <li><a href="lists/7.html">DC Fan</a></li>
-                            <li><a href="lists/8.html">BLDC</a></li>
+                            <li><a href="products.php">Dishwashers</a></li>
+                            <li><a href="fan-motor.php">Fan Motor</a></li>
+                            <li><a href="dc-fan.php">DC Fan</a></li>
+                            <li><a href="bldc.php">BLDC</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">
                         <a href="news.php">News</a>
                         <!-- sub menu -->
                         <ul class="sub-menu">
-                            <li><a href="lists/13.html">Industry News</a></li>
-                            <li><a href="lists/14.html">Company News</a></li>
+                            <li><a href="news.php">Industry News</a></li>
+                            <li><a href="company-news.php">Company News</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">
@@ -107,19 +107,19 @@
                 <a href="index.html">Home</a>
             </li>
             <li class="sidebar-brand">
-                <a href="javascript:;">About us<i class="sj"></i></a>
+                <a href="javascript:void(0);">About us<i class="sj"></i></a>
                 <ul class="sidebar-nav-two xl">
                     <li class="sidebar-brand-two">
-                        <a href="lists/9.html#i1">Company Introduction</a>
+                        <a href="about-us.php#aboutIntro">Company Introduction</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/10.html#i2">Corporate Culture</a>
+                        <a href="about-us.php#corporateCulture">Corporate Culture</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/11.html#i3">Service Idea </a>
+                        <a href="about-us.php#serviceIdea">Service Idea </a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/12.html#i4">Honorary Qualifications</a>
+                        <a href="about-us.php#qualifications">Honorary Qualifications</a>
                     </li>
 
                 </ul>
@@ -128,28 +128,27 @@
                 <a href="javascript:;">Products<i class="sj"></i></a>
                 <ul class="sidebar-nav-two xl">
                     <li class="sidebar-brand-two">
-                        <a href="lists/5.html">Dishwashers</a>
+                        <a href="products.php">Dishwashers</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/6.html">Fan Motor</a>
+                        <a href="fan-motor.php">Fan Motor</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/7.html">DC Fan</a>
+                        <a href="dc-fan.php">DC Fan</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/8.html">BLDC</a>
+                        <a href="bldc.php">BLDC</a>
                     </li>
-
                 </ul>
             </li>
             <li class="sidebar-brand">
-                <a href="javascript:;">News<i class="sj"></i></a>
+                <a href="javascript:void(0);">News<i class="sj"></i></a>
                 <ul class="sidebar-nav-two xl">
                     <li class="sidebar-brand-two">
-                        <a href="lists/13.html">Industry News</a>
+                        <a href="news.php">Industry News</a>
                     </li>
                     <li class="sidebar-brand-two">
-                        <a href="lists/14.html">Company News</a>
+                        <a href="company-news.php">Company News</a>
                     </li>
 
                 </ul>
