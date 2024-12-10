@@ -15,7 +15,8 @@
             <p>Location：</p>
             <a href="index.php">Home</a>
             <span>I</span>
-            <a href="about-us.php">News</a>
+            <a href="javascript:void(0);">News</a>
+    
         </div>
         <div class="right">
             <a href="news.php" class="active">Industry News</a>

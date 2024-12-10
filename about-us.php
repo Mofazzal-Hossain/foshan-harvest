@@ -15,7 +15,7 @@
             <p>Location：</p>
             <a href="index.php">Home</a>
             <span>I</span>
-            <a href="about-us.php">About us</a>
+            <a href="javascript:void(0);">About us</a>
         </div>
         <div class="right">
             <a class="active" href="#aboutIntro">Company Introduction</a>

@@ -225,4 +225,18 @@ jQuery(document).ready(function($) {
       map.add(marker);
     })
 
+    var pdSwiper = new Swiper('.pdSwiper', {
+      loop: true,
+      speed: 3000,
+      autoplay: {
+        disableOnInteraction: false,
+        delay: 3000
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      // effect: 'fade',
+    });
+
 });

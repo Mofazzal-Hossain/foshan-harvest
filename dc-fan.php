@@ -15,7 +15,7 @@
             <p>Location：</p>
             <a href="index.php">Home</a>
             <span>I</span>
-            <a href="about-us.php">Products</a>
+            <a href="javascript:void(0);">Products</a>
         </div>
         <div class="right">
             <a href="products.php">Dishwashers</a>
