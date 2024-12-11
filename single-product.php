@@ -29,16 +29,19 @@
 </div>
 <!-- Breadcrumb Section End -->
 
-<!-- Product List Section Start -->
-<div class="pd1-box">
-    <div class="pd1Inner center">
+<!-- Product Details Section Start -->
+<div class="product-details-wrapper">
+    <div class="product-details-content center">
+        <!-- Product Details Slider -->
         <div class="swiper-container pdSwiper">
             <div class="swiper-wrapper">
+                <!-- Swiper Slide -->
                 <div class="swiper-slide">
                     <div class="box">
                         <img src="assets/images/banner-slider-image-01.png" alt="">
                     </div>
                 </div>
+                <!-- Swiper Slide -->
                 <div class="swiper-slide">
                     <div class="box">
                         <img src="assets/images/banner-slider-image-02.png" alt="">
@@ -47,18 +50,22 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
+        <!-- Product Details right -->
         <div class="right">
+            <!-- Title -->
             <div class="title" data-aos="fade-up">
                 <h3>FT-1AS1-RQ</h3>
                 <h6>Xiaochanglong Dishwasher</h6>
             </div>
             <p class="line"></p>
+            <!-- info -->
             <div class="txt">
                 <p>Heating：Gas heating</p>
                 <p>Seats：500-800</p>
                 <p>Specification：Single pump, single rinse</p>
                 <p>Applicable place：Medium or large hotels/restaurant, guest house, chain restaurants, canteen</p>
             </div>
+            <!-- add to cart -->
             <a href="javascript:void(0);" class="read-more-btn">
                 <span>Add to cart</span>
                 <i class="el-icon-arrow-right"></i>
@@ -66,15 +73,22 @@
         </div>
     </div>
 </div>
-<div class="pd2-box">
-    <div class="pd2Inner center" data-aos="fade-up">
+
+<!-- Product Details Section End -->
+
+<!-- Product Summery Section Start -->
+<div class="product-summery-wrapper">
+    <div class="product-summery-content center" data-aos="fade-up">
+        <!-- left -->
         <div class="left">
+            <!-- title -->
             <div class="title">
                 <span></span>
                 <h3>Params</h3>
             </div>
             <div class="line"></div>
-            <div class="table-box">
+            <!-- product summery box -->
+            <div class="product-summery-box">
                 <table>
                     <thead>
                         <tr class="firstRow">
@@ -222,9 +236,12 @@
                 </table>
             </div>
         </div>
+        <!-- right -->
         <div class="right">
             <h3>Product Recommendations</h3>
+            <!-- item box -->
             <div class="item-box">
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-1.jpg" alt="">
                     </div>
@@ -233,6 +250,7 @@
                         <span>More ></span>
                     </div>
                 </a>
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-2.jpg" alt="">
                     </div>
@@ -241,6 +259,7 @@
                         <span>More ></span>
                     </div>
                 </a>
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-3.jpg" alt="">
                     </div>
@@ -249,6 +268,7 @@
                         <span>More ></span>
                     </div>
                 </a>
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-4.jpg" alt="">
                     </div>
@@ -257,6 +277,7 @@
                         <span>More ></span>
                     </div>
                 </a>
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-5.jpg" alt="">
                     </div>
@@ -265,6 +286,7 @@
                         <span>More ></span>
                     </div>
                 </a>
+                <!-- item -->
                 <a href="single-product.php">
                     <div class="box"><img src="assets/images/product-list-image-6.jpg" alt="">
                     </div>
@@ -277,5 +299,5 @@
         </div>
     </div>
 </div>
-<!-- Product List Section End -->
+<!-- Product Summery Section End -->
 <?php include 'inc/footer.php'; ?>

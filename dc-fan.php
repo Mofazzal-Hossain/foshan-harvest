@@ -34,7 +34,7 @@
         <ul class="product-lists" data-aos="fade-up">
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/1-2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-17.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FS40-DC30A DC Fan</h3>
@@ -44,7 +44,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-18.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FS40-DC12 DC Fan</h3>
@@ -54,7 +54,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/3.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-19.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT30-DC01A DC Fan</h3>
@@ -64,7 +64,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/4.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-20.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT30-DC01C DC Fan</h3>
@@ -74,7 +74,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/5.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-21.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT30-DC08C Dc Fan</h3>
@@ -84,7 +84,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/6.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-22.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FW40-DC01B DC Fan</h3>

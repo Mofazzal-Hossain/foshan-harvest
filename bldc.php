@@ -34,7 +34,7 @@
         <ul class="product-lists" data-aos="fade-up">
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/1-2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-23.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FC56-DC03 BLDC Ceiling Fan</h3>
@@ -44,7 +44,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-24.jpg" alt="product list image">
                     <div class="ct">
                     <h3>FC56-DC05 BLDC Ceiling Fan</h3>
@@ -54,7 +54,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/3.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-25.jpg" alt="product list image">
                     <div class="ct">
                     <h3>FC56-DC07 BLDC Ceiling Fan</h3>
@@ -64,7 +64,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/4.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-26.jpg" alt="product list image">
                     <div class="ct">
                     <h3>FC56-DC11 BLDC Ceiling Fan</h3>

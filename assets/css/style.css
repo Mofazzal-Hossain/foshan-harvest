@@ -1970,11 +1970,11 @@ body {
 }
 
 /* Product Details Section */
-.pd1-box{
+.product-details-wrapper{
   width: 100%;
   background-color: #F8F8F8;
 }
-.pd1Inner{
+.product-details-content{
   padding: 80px 0;
   margin: 0 auto;
   display: flex;
@@ -1982,26 +1982,26 @@ body {
   justify-content: space-between;
   -webkit-justify-content: space-between;
 }
-.pd1Inner .pdSwiper{
+.product-details-content .pdSwiper{
   width: 750px;
   height: 550px;
   margin: 0;
   padding-bottom: 30px;
 }
-.pd1Inner .pdSwiper .swiper-pagination{
+.product-details-content .pdSwiper .swiper-pagination{
   bottom: 0px;
 }
-.pd1Inner .pdSwiper .swiper-pagination-bullet{
+.product-details-content .pdSwiper .swiper-pagination-bullet{
   width: 10px;
   height: 10px;
   opacity: 1;
   background-color: #C6C6C6;
   margin: 0 6px;
 }
-.pd1Inner .pdSwiper .swiper-pagination-bullet-active{
+.product-details-content .pdSwiper .swiper-pagination-bullet-active{
   background-color: #0C508D;
 }
-.pd1Inner .pdSwiper .box{
+.product-details-content .pdSwiper .box{
   width: 100%;
   height: 100%;
   background-color: #FFFFFF;
@@ -2012,47 +2012,48 @@ body {
   -webkit-align-items: center;
   -webkit-justify-content: center;
 }
-.pd1Inner .pdSwiper .box img{
+.product-details-content .pdSwiper .box img{
   max-width: 90%;
   max-height: 90%;
 }
-.pd1Inner .right{
+.product-details-content .right{
   width: 575px;
   padding-top: 30px;
 }
-.pd1Inner .right .title h3{
+.product-details-content .right .title h3{
   font-family: mont;
   font-weight: bold;
   font-size: 36px;
   color: #333333;
 }
-.pd1Inner .right .title h6{
+.product-details-content .right .title h6{
   font-family: mont;
   font-weight: 400;
   font-size: 24px;
   color: #333333;
 }
-.pd1Inner .right .line{
+.product-details-content .right .line{
   width: 100%;
   height: 1px;
   background-color: #BABABA;
   margin: 45px 0 40px 0;
 }
-.pd1Inner .right .txt{
+.product-details-content .right .txt{
   margin-bottom: 69px;
 }
-.pd1Inner .right .txt p{
+.product-details-content .right .txt p{
   font-family: mont;
   font-weight: 400;
   font-size: 16px;
   color: #666666;
   line-height: 40px;
 }
-.pd2-box{
+/* Product Summery Section */
+.product-summery-wrapper{
   width: 100%;
   background-color: #FFFFFF;
 }
-.pd2Inner{
+.product-summery-content{
   margin: 0 auto;
   display: flex;
   display: -webkit-flex;
@@ -2060,21 +2061,21 @@ body {
   -webkit-justify-content: space-between;
   padding: 100px 0;
 }
-.pd2Inner .left{
+.product-summery-content .left{
   width: 900px;
 }
-.pd2Inner .left .title {
+.product-summery-content .left .title {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
 }
-.pd2Inner .left .title span{
+.product-summery-content .left .title span{
   width: 3px;
   height: 36px;
   background: #0C508D;
 }
-.pd2Inner .left .title h3{
+.product-summery-content .left .title h3{
   font-family: mont;
   font-weight: 400;
   font-size: 36px;
@@ -2082,21 +2083,21 @@ body {
   line-height: 1;
   margin-left: 30px;
 }
-.pd2Inner .left .line{
+.product-summery-content .left .line{
   width: 100%;
   height: 1px;
   background-color: #EBEDED;
   margin: 30px 0;
 }
-.pd2Inner .left .table-box{
+.product-summery-content .left .product-summery-box{
   width: calc(100% - 2px);
   border: 1px solid #E1E3E6;
 }
-.pd2Inner .left .table-box table{
+.product-summery-content .left .product-summery-box table{
   width: 100%;
   border-collapse: collapse
 }
-.pd2Inner .left .table-box table thead th{
+.product-summery-content .left .product-summery-box table thead th{
   font-family: mont;
   font-weight: bold;
   font-size: 18px;
@@ -2105,41 +2106,41 @@ body {
   background-color: #F3F6F9;
   padding: 10px 30px;
 }
-.pd2Inner .left .table-box table tbody td{
+.product-summery-content .left .product-summery-box table tbody td{
   font-family: mont;
   font-weight: 400;
   font-size: 16px;
   color: #666666;
   padding: 10px 30px;
 }
-.pd2Inner .left .table-box table tbody tr:not(:first-of-type){
+.product-summery-content .left .product-summery-box table tbody tr:not(:first-of-type){
   border-top: 1px solid #EBEDED;
 }
-.pd2Inner .left .table-box table tbody td:not(:first-of-type){
+.product-summery-content .left .product-summery-box table tbody td:not(:first-of-type){
   border-left: 1px solid #EBEDED;
 }
-.pd2Inner .right{
+.product-summery-content .right{
   width: calc(100% - 900px - 110px);
 }
-.pd2Inner .right h3{
+.product-summery-content .right h3{
   font-family: mont;
   font-weight: 400;
   font-size: 24px;
   color: #999999;
 }
-.pd2Inner .right .item-box {
+.product-summery-content .right .item-box {
   margin-top: 25px;
 }
-.pd2Inner .right .item-box a{
+.product-summery-content .right .item-box a{
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
 }
-.pd2Inner .right .item-box a:not(:first-of-type){
+.product-summery-content .right .item-box a:not(:first-of-type){
   margin-top: 20px;
 }
-.pd2Inner .right .item-box a .box{
+.product-summery-content .right .item-box a .box{
   width: 160px;
   height: 118px;
   background: #FFFFFF;
@@ -2151,15 +2152,15 @@ body {
   -webkit-align-items: center;
   -webkit-justify-content: center;
 }
-.pd2Inner .right .item-box a .box img{
+.product-summery-content .right .item-box a .box img{
   max-height: 90%;
   max-width: 90%;
 }
-.pd2Inner .right .item-box a .txt{
+.product-summery-content .right .item-box a .txt{
   width: calc(100% - 162px - 22px);
   margin-left: 22px;
 }
-.pd2Inner .right .item-box a .txt .tm{
+.product-summery-content .right .item-box a .txt .tm{
   font-family: mont;
   font-weight: 400;
   font-size: 18px;
@@ -2170,10 +2171,10 @@ body {
   -webkit-line-clamp: 1;
   transition: 0.3s;
 }
-.pd2Inner .right .item-box a:hover>.txt .tm{
+.product-summery-content .right .item-box a:hover>.txt .tm{
   color: #0C508D;
 }
-.pd2Inner .right .item-box a .txt span{
+.product-summery-content .right .item-box a .txt span{
   font-family: mont;
   font-weight: 400;
   font-size: 14px;

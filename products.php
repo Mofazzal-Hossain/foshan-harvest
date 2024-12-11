@@ -11,12 +11,14 @@
 <!-- Breadcrumb Section Start -->
 <div class="breadcrumb-wrapper bg-white">
     <div class="breadcrumb-inner center" data-aos="fade-up">
+        <!-- nav -->
         <div class="nav">
             <p>Location：</p>
             <a href="index.php">Home</a>
             <span>I</span>
             <a href="javascript:void(0);">Products</a>
         </div>
+        <!-- right -->
         <div class="right">
             <a class="active" href="products.php">Dishwashers</a>
             <a href="fan-motor.php">Fan Motor</a>
@@ -34,7 +36,7 @@
         <ul class="product-lists" data-aos="fade-up">
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/1-2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-1.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-1AS1-RQ Xiaochanglong Dishwasher</h3>
@@ -46,7 +48,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-2.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-1AS1 Xiaochanglong Dishwasher</h3>
@@ -58,7 +60,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/3.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-3.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-2ATN2 Xiaochanglong Dishwasher</h3>
@@ -70,7 +72,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/4.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-4.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-2ATN2-RQ Xiaochanglong Dishwasher</h3>
@@ -82,7 +84,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/5.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-5.jpg" alt="product list image">
                     <div class="ct">
                         <h3>H60-02 Dishwasher with lid removed</h3>
@@ -94,7 +96,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/6.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-6.jpg" alt="product list image">
                     <div class="ct">
                         <h3>H60-SC Dishwasher with lid removed</h3>
@@ -106,7 +108,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/7.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-7.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-B80-2D Cup washing machine</h3>
@@ -116,7 +118,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/8-2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-8.jpg" alt="product list image">
                     <div class="ct">
                         <h3>FT-B50-2S Cup washing machine</h3>
@@ -126,7 +128,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/9.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-9.jpg" alt="product list image">
                     <div class="ct">
                         <h3>R250 Channel Machine</h3>

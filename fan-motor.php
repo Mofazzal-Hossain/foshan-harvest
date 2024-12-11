@@ -34,7 +34,7 @@
         <ul class="product-lists" data-aos="fade-up">
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/1-2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-10.jpg" alt="product list image">
                     <div class="ct">
                         <h3>YYK9-2B 9inch Stormy Fan Motor</h3>
@@ -44,7 +44,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/2.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-11.jpg" alt="product list image">
                     <div class="ct">
                         <h3>YYK12-4A Table Fan Motor</h3>
@@ -54,7 +54,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/3.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-12.jpg" alt="product list image">
                     <div class="ct">
                         <h3>YYK12-4B Table Fan Motor</h3>
@@ -64,7 +64,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/4.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-13.jpg" alt="product list image">
                     <div class="ct">
                         <h3>YYYK16-4A Stand Fan Motor</h3>
@@ -74,7 +74,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/5.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-14.jpg" alt="product list image">
                     <div class="ct">
                         <h3>YYK16-4J Net Fan Motor</h3>
@@ -84,7 +84,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/6.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-15.png" alt="product list image">
                     <div class="ct">
                         <h3>YYK16-4C Stand Fan Motor</h3>
@@ -94,7 +94,7 @@
             </li>
             <!-- product item -->
             <li class="product-item">
-                <a href="../shows/5/7.html">
+                <a href="single-product.php">
                     <img src="assets/images/product-list-image-16.png" alt="product list image">
                     <div class="ct">
                         <h3>YYK16-2B High speed Stand Fan Motor</h3>

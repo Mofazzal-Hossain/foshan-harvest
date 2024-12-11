@@ -31,7 +31,7 @@
         <ul class="news-lists" data-aos="fade-up">
             <!-- news item -->
             <li class="news-item">
-                <a href="../shows/13/15.html">
+                <a href="single-news.php">
                     <div class="left">
                         <div class="time">05-15</div>
                         <div class="icon"><i class="el-icon-right"></i></div>

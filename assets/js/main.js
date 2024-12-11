@@ -225,6 +225,7 @@ jQuery(document).ready(function($) {
       map.add(marker);
     })
 
+    // product swiper
     var pdSwiper = new Swiper('.pdSwiper', {
       loop: true,
       speed: 3000,
